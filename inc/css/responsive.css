@@ -1,0 +1,70 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.margin-top{
+	margin-top:30px;
+
+}
+       
+    }
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.margin-top{
+	margin-top:30px;
+
+}
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+.margin-top{
+	margin-top:30px;
+
+}
+}
+@media only screen and (max-width: 768px) {
+.margin-top{
+	margin-top:30px;
+
+}
+.home-area{
+	text-align:center;
+}
+.btn-bg1{
+	margin-bottom:10px;
+}
+.btn-bg2{
+	margin-bottom:10px;
+}
+.btn-bg3{
+	margin-bottom:10px;
+}
+.mt{
+	margin-top:10px;
+}
+.hide{
+	width:80%;
+	margin-bottom:20px;
+	
+}
+.profile-connection{
+	margin-top:55px;
+}
+
+}

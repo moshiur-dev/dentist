@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: mdsalim400@gmail.com
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer
+*/
+
+
+/* 1. Theme default css */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Play:wght@400;700&display=swap');
+
+body {
+	font-family: Arial;
+	background: #fff;
+	color: #777;
+	line-height: 1.7em;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #ffaa00;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	position: relative;
+	font-weight: bold;
+	margin: 0;
+	background: none;
+	line-height: 1.7em;
+	font-family: play, sans-serif;
+}
+
+p {
+	position: relative;
+	line-height: 1.7em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+ul,
+li {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+img {
+	display: inline-block;
+	max-width: 100%;
+}
+
+.centered {
+	text-align: center;
+}
+
+.theme-btn {
+	cursor: pointer;
+	display: inline-block;
+}
+
+/* header area */
+.home-area {
+	padding: 50px 0;
+}
+
+.rotate {
+	transform: rotate(81.001deg);
+}
+
+.btn-bg1 {
+	background: #f95836 !important;
+}
+
+.profile-connection {
+	background: #FFC300 !important;
+	padding: 10px 10px;
+	font-family: play;
+	margin-top: 20px;
+}
+
+.profile-connection b {
+	font-weight: 600;
+	font-size: 19px;
+	color: rgb(41, 41, 41);
+}
+
+.profile-connection .text {
+	font-family: open-sans;
+	font-size: 18px;
+	color: rgb(41, 41, 41);
+}
+
+.profile-connection a {
+	color: rgb(51, 122, 183);
+	text-decoration: none;
+}
+
+.address-area {
+	background: #FFC300;
+	margin-top: 20px;
+	padding: 15px 10px;
+	border-radius: 5px;
+	box-shadow: 0px -9px #e5e0e0;
+}
+
+.address-area h1 {
+	color: rgb(41, 41, 41);
+	font-size: 26px;
+	font-family: play;
+}
+
+.company-name {
+	background: #fff;
+	padding: 10px;
+	color: rgb(41, 41, 41);
+}
+
+.company-name h3 {
+	font-size: 18px;
+	font-family: open-sans;
+}
+
+.company-name h4 {
+	font-size: 16px;
+	font-family: open-sans;
+}
+
+.company-website {
+	padding: 10px;
+	color: rgb(41, 41, 41);
+}
+
+.company-website h3 {
+	font-size: 18px;
+	font-family: open-sans;
+}
+
+.company-website h4 {
+	font-size: 16px;
+	font-family: open-sans;
+}
+
+.company-phone {
+	background: #fff;
+	padding: 10px;
+	color: rgb(41, 41, 41);
+}
+
+.company-phone h3 {
+	font-size: 18px;
+	font-family: open-sans;
+}
+
+.company-location {
+	padding: 10px;
+	color: rgb(41, 41, 41);
+}
+
+.company-location h3 {
+	font-size: 18px;
+	font-family: open-sans;
+}
+
+.company-location h4 {
+	font-size: 16px;
+	font-family: open-sans;
+}
+
+hr {
+	background: #fff;
+}
+
+.more-about {}
+
+.more-about h2 {
+	font-size: 24px;
+	font-family: play;
+	color: rgb(41, 41, 41);
+}
+
+.more-about p {
+	font-size: 18px;
+	font-family: open-sans;
+	color: rgb(41, 41, 41);
+}
+
+.contact-form {
+	background: #FFC300;
+	padding: 10px 10px;
+	border-radius: 5px;
+}
+
+.contact-form h2 {
+	font-size: 20px;
+	color: rgb(41, 41, 41);
+}
+
+.form0 {
+	margin-bottom: 15px;
+}
+
+.select0 {
+	margin-bottom: 15px;
+}
+
+.form-btn {
+	text-align: center;
+	width: 100%;
+}
+
+.btn1 {
+	width: 100% !important;
+}
+
+.icon-area {
+	background: #FFC300;
+	padding: 10px 10px;
+	border-radius: 5px;
+	margin-top: 25px;
+	color: rgb(41, 41, 41);
+
+}
+
+.icon-list i {
+	font-size: 10px;
+}
+
+.icon-list a {
+	font-size: 10px;
+}
+
+.icon-area ul li {
+	display: inline-block;
+	background: #3b5998;
+	border-radius: 3px;
+	color: #fff;
+	padding: 3px;
+}
+
+.rotate {
+	transform: rotate(81.001deg);
+}
+
+.footer {
+	background: rgb(32, 80, 129);
+	padding: 20px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.btn-bg4 {
+	background: none !important;
+	color: black !important;
+	text-align: left !important;
+	border: navajowhite !important;
+}
+
+. {}
+
+. {}
